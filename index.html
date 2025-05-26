@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mi Librería - Carrito de Compra</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>📚 Mi Librería - Compra Fácil</h1>
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>Explora nuestros libros</h2>
+            <div class="product-list" id="product-list">
+            </div>
+        </section>
+
+        <section class="cart">
+            <h2>Carrito de Compras</h2>
+            <div id="cart-items" class="cart-items">
+                <p>Tu carrito está vacío. Agrega libros para comenzar.</p>
+            </div>
+            <div class="cart-footer">
+                <p>Total a pagar: <span id="total-price">$0.00</span></p>
+                <button id="checkout-btn" disabled>Proceder al Pago</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
