@@ -65,7 +65,6 @@ function renderProducts() {
 function addToCart(productId, qty) {
     if (cart[productId]) {
         cart[productId] += qty;
-        if (cart[productId] > 10) cart[productId] = 10; // max 10 libros por producto
     } else {
         cart[productId] = qty;
     }
